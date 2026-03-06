@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio · bordered fields (HTML only)</title>
+
+</head>
+<body>
+
+    <!-- header / title -->
+    <header>
+        <h1> Portfolio landing page</h1>
+        <hr>
+    </header>
+
+    <!-- main content: name, student number, course section, information about you 
+         each inside a visible border using either fieldset or table with border -->
+    <main>
+        <h2>Student profile</h2>
+
+        <!-- option 1: use a table with border to wrap each field visually -->
+        <table border="1" cellpadding="10" cellspacing="0" style="margin-bottom: 20px;">
+            <tr>
+                <td><img src="image/tigercomando.jpg" alt="TigerComando" width="75px" height="85px"></td>
+            </tr>
+            <tr>
+                <td><strong>Name</strong></td>
+                <td>Johneros P. Puyo (she/they)</td>
+            </tr>
+            <tr>
+                <td><strong>Student number</strong></td>
+                <td>S-2247-09 · 224709</td>
+            </tr>
+            <tr>
+                <td><strong>Course Section</strong></td>
+                <td>DSGN 410 · section F</td>
+            </tr>
+        </table>
+
+        <!-- separate bordered block for "Information about you" using fieldset -->
+        <fieldset>
+            <legend><strong>📋 Information about you</strong></legend>
+            <ol>
+                <li>multidisciplinary designer & front-end explorer.</li>
+                <li>based in seattle · originally from miami.</li>
+                <li>passionate about inclusive interfaces, motion design, and typography.</li>
+                <li>currently working on a thesis about digital storytelling.</li>
+            </ol>
+            <p>
+                🌱 multidisciplinary designer & front-end explorer.<br>
+                📍 based in seattle · originally from miami.<br>
+                🧠 passionate about inclusive interfaces, motion design, and typography.<br>
+                🎓 currently working on a thesis about digital storytelling.
+            </p>
+        </fieldset>
+
+        <hr>
+
+    </main>
+
+
+</body>
+</html>
